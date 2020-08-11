@@ -7,6 +7,7 @@
 <p align="center">
   <a href="#why">Why</a> •
   <a href="#roadmap">Roadmap</a> •
+  <a href="#install_instructions">Install instructions</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#author">Author</a> •
   <a href="#contributing">Contributing</a> •
@@ -17,7 +18,7 @@
 
 This app was created in a bootcamp called Next Level Week #2. It's only purpose is to teach new useful technologies to begginers that didnt had contact with web development.
 
-## :roadmap: **Roadmap**
+## Roadmap
 
 -   [x] Introduction to web development
 -   [x] Dev worsktation: Chrome and VSCode
@@ -38,7 +39,7 @@ This app was created in a bootcamp called Next Level Week #2. It's only purpose 
 
 Check this notion [link](https://www.notion.so/Class-Notes-77051ca2cd794b7494a3defcbe598627) if you want a more detailed roadmap. Obs: It's in portuguese!
 
-## **Install instructions**
+## Install instructions
 
 ### Getting Started
 
@@ -54,19 +55,19 @@ Check this notion [link](https://www.notion.so/Class-Notes-77051ca2cd794b7494a3d
 - 2.1) In Bash command live run the web page, run `npm run dev`. The first build will take some time.
 - 2.2) The server will start in <http://localhost:5500> 
 
-## :tech-stack: **Tech Stack**
+## Tech Stack
 
 -   [SQLite](https://www.sqlite.org/index.html)
 -   [NodeJS](https://nodejs.org/en/)
 
-## :author: **Author**
+## Author
 
 * **João Hütner** - *All work* - [Linkedin](https://www.linkedin.com/in/joao-victor-hutner/)
 
-## :contributing: **Contributing**
+## Contributing
 
 Feel free to submit pull requests to me.
 
-## :license: **License**
+## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
