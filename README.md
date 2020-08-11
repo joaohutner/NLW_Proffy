@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#why">Why</a> •
   <a href="#roadmap">Roadmap</a> •
-  <a href="#install_instructions">Install instructions</a> •
+  <a href="#Install instructions">Install instructions</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#author">Author</a> •
   <a href="#contributing">Contributing</a> •
@@ -16,7 +16,8 @@
 
 ## Why?
 
-This app was created in a bootcamp called Next Level Week #2. It's only purpose is to teach new useful technologies to begginers that didnt had contact with web development.
+This app was created in a bootcamp called Next Level Week #2. 
+It's only purpose is to teach new useful technologies to begginers that didnt had contact with web development.
 
 ## Roadmap
 
@@ -33,7 +34,7 @@ This app was created in a bootcamp called Next Level Week #2. It's only purpose 
 -   [x] Using node package manager of NodeJs to install and configure our "express" Server in Js
 -   [x] Using node package manager of NodeJs to install and configure our "nunjucks" Template Engine
 -   [x] Using SQLite to manage our local SQL data base
--   [ ] Sucess page after register as a teacher
+-   [ ] Confirmation page after register as a teacher
 -   [ ] Remove time option in register page for teachers
 -   [ ] More ways to communicate with the teacher, like: E-mail, Discord, Etc
 
