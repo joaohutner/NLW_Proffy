@@ -5,19 +5,19 @@
 <p align="center">Page developed for students that need a specific class and also for teacher who need an extra change</p>
 
 <p align="center">
-  <a href="#rocket">Why</a> •
-  <a href="#dizzy-roadmap">Roadmap</a> •
-  <a href="#zap-tech-stack">Tech Stack</a> •
-  <a href="#person">Author</a> •
-  <a href="#handshake-contributing">Contributing</a> •
-  <a href="#tophat-license">License</a> •
+  <a href="#why">Why</a> •
+  <a href="#roadmap">Roadmap</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#author">Author</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a> •
 </p>
 
-## :rocket: **Why?**
+## :why: **Why?**
 
 This app was created in a bootcamp called Next Level Week #2. It's only purpose is to teach new useful technologies to begginers that didnt had contact with web development.
 
-## :dizzy: **Roadmap**
+## :roadmap: **Roadmap**
 
 -   [x] Introduction to web development
 -   [x] Dev worsktation: Chrome and VSCode
@@ -52,20 +52,21 @@ Check this notion [link](https://www.notion.so/Class-Notes-77051ca2cd794b7494a3d
 #### 2) Start your app
 
 - 2.1) In Bash command live run the web page, run `npm run dev`. The first build will take some time.
+- 2.2) The server will start in <http://localhost:5500> 
 
-## :zap: **Tech Stack**
+## :tech-stack: **Tech Stack**
 
 -   [SQLite](https://www.sqlite.org/index.html)
 -   [NodeJS](https://nodejs.org/en/)
 
-## :person: **Author**
+## :author: **Author**
 
 * **João Hütner** - *All work* - [Linkedin](https://www.linkedin.com/in/joao-victor-hutner/)
 
-## :handshake-contributing: **Contributing**
+## :contributing: **Contributing**
 
 Feel free to submit pull requests to me.
 
-## :tophat-license: **License**
+## :license: **License**
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
