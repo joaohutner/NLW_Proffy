@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#why">Why</a> •
   <a href="#roadmap">Roadmap</a> •
-  <a href="#Install instructions">Install instructions</a> •
+  <a href="#install-instructions">Install instructions</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#author">Author</a> •
   <a href="#contributing">Contributing</a> •
