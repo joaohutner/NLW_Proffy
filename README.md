@@ -1,8 +1,13 @@
+
 <h1 align="center">
-    <img src="https://img.shields.io/static/v1?label=Blog&message=Rocketseat&color=7159c1&style=for-the-badge&logo=ghost"/>
-    Proffy | teach and study online</strong>
+    <img src="public/images/icons/proffy_logo.png" alt="LogoProffyColored">
 </h1>
-<p align="center">Page developed for students that need a specific class and also for teacher who need an extra change</p>
+<h2 align="center">
+    Sua plataforma de estudos online
+</h2>
+<p align="center">
+    Page developed for students that need a specific class and also for teacher who need an extra change
+</p>
 
 <p align="center">
   <a href="#why">Why</a> •
