@@ -13,7 +13,7 @@
   <a href="#license">License</a> •
 </p>
 
-## :why: **Why?**
+## Why?
 
 This app was created in a bootcamp called Next Level Week #2. It's only purpose is to teach new useful technologies to begginers that didnt had contact with web development.
 
