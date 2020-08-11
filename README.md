@@ -57,7 +57,6 @@ Check this notion [link](https://www.notion.so/Class-Notes-77051ca2cd794b7494a3d
 
 -   [SQLite](https://www.sqlite.org/index.html)
 -   [NodeJS](https://nodejs.org/en/)
--   []
 
 ## :person: **Author**
 
