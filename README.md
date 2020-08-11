@@ -2,9 +2,7 @@
 <h1 align="center">
     <img src="public/images/icons/proffy_logo.png" alt="LogoProffyColored">
 </h1>
-<h2 align="center">
-    Sua plataforma de estudos online
-</h2>
+
 <p align="center">
     Page developed for students that need a specific class and also for teacher who need an extra change
 </p>
