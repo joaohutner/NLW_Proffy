@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt_br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Proffy | Sua plataforma de estudos</title>
+
+    <meta name="theme-color" content="#8257E5"> <!-- Icone em cima da página-->
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/header.css">
+    <link rel="stylesheet" href="/styles/partials/page_give_classes.css">
+    <link rel="stylesheet" href="/styles/partials/forms.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    
+    <script src="/scripts/addField.js" defer></script>
+
+</head>
+<body id="page_give_classes">
+    <div id="container"> 
+        <header class="page_header">
+            <div class="top_bar_container">
+                <a href="/">
+                    <img src="/images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="/images/logo.svg" alt="Proffy">
+            </div>
+
+            <div class="header_content">
+                <strong>Que incrível que você quer dar aulas.</strong>
+                <p>O primeiro passo é preencher esse formulário de inscrição</p>
+            </div>
+
+        </header>
+
+        <main>
+            <form action="/save_classes" id="create_class" method="POST">
+                <!-- Cada fieldset é uma repartições do formulário: Dados, Sobre a Aula e Horário Disponíveis-->
+                <fieldset> 
+                    <legend>Seus dados</legend>
+                    <!-- Colocaremos tudo que tem dentro da área "seus dados" do formulário por meio de divs, label, input; serão 4 -->
+                    
+                    <div class="input_block">
+                        <label for="name">Nome completo</label>
+                        <input name="name" type="name" id="name" required>
+                    </div>
+
+                    <div class="input_block">
+                        <label for="avatar">Link da sua foto <small>(comece com https://)</small></label> 
+                        <input type="url" id="avatar" name="avatar" required>
+                    </div>
+
+                    <div class="input_block">
+                        <label for="whatsapp">Whatsapp <small>(somente números)</small></label>
+                        <input type="number" name="whatsapp" id="whatsapp" required>
+                    </div>
+
+                    <div class="textarea_block">
+                        <label for="bio">Biografia</label>
+                        <textarea name="bio" id="bio" required></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sobre a aula</legend>
+                    <!-- Colocaremos tudo que tem dentro da área "Sobre a aula" do formulário por meio de divs, label, input; serão 2 -->
+
+                    <div class="select_block">
+                        <label for="subject">Matéria</label>
+                        <select name="subject" id="subject" required>
+                            <option value="">Selecione uma opção</option>
+
+                            {%for subject in subjects %}
+                                <option value="{{loop.index}}">
+                                    {{subject}}
+                                </option>
+                            {%endfor%}
+
+                        </select>
+                    </div>
+
+                    <div class="input_block">
+                        <label for="cost">Custo da sua hora/aula 
+                            <small>(R$)</small>
+                        </label>
+                        <input type="cost" type="number" name="cost" id="cost" required>
+                    </div>
+
+                </fieldset>
+
+                <fieldset id="schedule_items">
+                    <legend>Horários disponíveis
+                        <button id="add_time" type="button">+ Novo Horário</button>
+                    </legend>
+
+                    <div class="schedule_item">
+                        <div class="select_block">
+                            <label for="weekday">Dia da semana</label>
+                            <select name="weekday[]" required> <!-- Weekday pode vir com mais de um valor-->
+
+                                {%for week in week_days %}
+                                <option value="{{loop.index}}">
+                                    {{week}}
+                                </option>
+                                {%endfor%}
+
+                            </select>
+                        </div>
+
+                        <div class="input_block">
+                            <label for="time_from">Das</label>
+                            <input type="time" name="time_from[]" required>
+                        </div>
+
+                        <div class="input_block">
+                            <label for="time_to">Até</label>
+                            <input type="time" name="time_to[]" required>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+            <!-- Sempre que tivermos um formulário colocamos o footer dentro para podermos colocar o button como submit, mas por conta do layot está fora.-->
+            <!-- No butão depois de type="submit" só colocar form="create_class"-->
+            <footer>
+                <p>
+                    <img src="/images/icons/warning.svg" alt="Aviso importante">
+                    Importante! <br> Preencha todos os dados
+                </p>
+                <button type="submit" form="create_class">
+                    Salvar cadastro
+                </button>
+            </footer>
+        </main>
+    </div>
+</body>
+</html> 

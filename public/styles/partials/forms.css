@@ -1,0 +1,52 @@
+.select_block label,
+.input_block label,
+.textarea_block label {
+    font-size: 1.4rem;
+    color: var(--color-text-complement);
+}
+
+.input_block input,
+.select_block select,
+.textarea_block textarea {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background: var(--color-input-background);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Archivo;
+}
+
+.textarea_block textarea{
+    padding: 1.2rem 1.6rem;
+    height: 16rem;
+
+    resize: vertical
+}
+
+
+.input_block,
+.textarea_block{
+    position: relative; /*Posição relativa para o after absoluto*/
+}
+
+.input_block:focus-within::after,
+.textarea_block:focus-within::after{ /*Pseudo elemento, ele vai criar um elemento HTML somento quando o elemento estiver em foco*/
+    content:"";
+    width: calc(100% - 3.2rem);
+    height: 2px;
+    background: var(--color-primary-light);
+
+    position: absolute; /*Vai botar uma folha de papel a cima, isso é absoluto na página inteira, mas devido a posição relativa do input isso muda.*/
+    left: 1.6rem;
+    right: 1.6rem;
+    bottom: 0;
+}
+
+label small {
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+    color: var(--color-small-info);
+}

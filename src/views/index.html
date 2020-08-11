@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!-- Aqui é o nosso identificador de versão do HTML, todo site antes de abrir precisa saber. -->
+<html lang="pt_br"> <!-- lange é um atributo da nossa tag-->
+<!-- Isso aqui /\ é uma tag html , toda tag sempre que aberta deve ser fechada, caso contrário: erros.-->
+<!--
+    HTML - HyperText Markup Language, é uma linguagem de marcação de hypertexto (não é de programação)
+-->
+<head>
+    <!--Abaixo temos a tag "meta", ela define propriedades específicas da página, existem inúmeros dela-->
+    <meta charset="UTF-8"> <!--Esse charset é basicamente o encoding da página, qual tipo de texto ele aceita-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Faz com que seja possível a mudança de escala da tela-->
+    <title>Proffy | Sua plataforma de estudos</title> <!--Aparece lá no título da página-->
+    
+    <meta name="theme-color" content="#8257E5">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+
+    <!--Dentro de style nós podemos configurar cada uma das tags com seus devidos atributos por meio dos seletores-->
+    <!--Dentro de style também é possível criar Classes, basta colocar .NOME_CLASSE e dentro dela definir o que deve ser feito.-->
+    <!--<style></style> -->
+    
+    <!-- Para linkar nosso CSS -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page_landing.css">
+
+    <!--Está indo lá no google e pegando as fontes que queremos-->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    
+</head>
+<body id="page_landing">
+
+    <div id="container"> <!--Não tem significado nenhum, é apenas para demarcar-->
+
+
+        <div class="logo_container">
+            <img src="/images/logo.svg" alt="LogoProffy"> <!--Source da imagem e caso não tenha uma escrita alternativa-->
+            <h2>Sua plataforma de estudos online</h2>
+        </div>
+
+        <img class="hero_image" src="/images/landing.svg" alt="Plataforma de Estudos">
+
+        <div class="buttons_container">
+            <a class = "study" href="study"><!-- Colocamos o link desejado dentro de Href para sermos redirecionados -->
+                <img src="/images/icons/study.svg" alt="Estudar">
+                Estudar
+            </a> 
+            <a class = "give_classes" href="give_classes"><!-- Colocamos o link desejado dentro de Href para sermos redirecionados -->
+                <img src="/images/icons/give-classes.svg" alt="Dar aulas">
+                Dar aulas
+            </a> 
+        </div>
+
+        <p class="total_connections">
+            Total de 200 conexões já realizadas
+            <img src="/images/icons/purple-heart.svg" alt="Coração roxo">
+        </p>
+
+    </div>
+
+
+</body>
+</html> 
