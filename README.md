@@ -23,7 +23,7 @@
   <a href="#why">Why</a> •
   <a href="#roadmap">Roadmap</a> •
   <a href="#install-instructions">Install instructions</a> •
-  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#tech">Techs</a> •
   <a href="#author">Author</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#license">License</a> •
@@ -71,10 +71,14 @@ Check this notion [link](https://www.notion.so/Class-Notes-77051ca2cd794b7494a3d
 - 2.1) In Bash command live run the web page, run `npm run dev`. The first build will take some time.
 - 2.2) The server will start in <http://localhost:5500> 
 
-## Tech Stack
+## Techs
 
+-   [JS](https://www.javascript.com/)
+-   [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 -   [SQLite](https://www.sqlite.org/index.html)
 -   [NodeJS](https://nodejs.org/en/)
+-   [HTML5](https://html.spec.whatwg.org/multipage/)
+
 
 ## Author
 
