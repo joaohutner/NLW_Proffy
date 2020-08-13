@@ -4,12 +4,12 @@
 
 <p align="center" >
     <h1>
-        <img width="450" style="border-radius: 5px" height="550" src="public/images/icons/github/page_landing.png" alt="Page Landing">
-        <img width="450" style="border-radius: 5px" height="550" src="public/images/icons/github/give_classes_1.png" alt="Give Classes 1">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/page_landing.png" alt="Page Landing">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/give_classes_1.png" alt="Give Classes 1">
     </h1>
     <h1>
-        <img width="450" style="border-radius: 5px" height="550" src="public/images/icons/github/proffys_disponiveis.png" alt="Avaliable Proffys/Teachers">
-        <img width="450" style="border-radius: 5px" height="550" src="public/images/icons/github/give_classes_2.png" alt="Give Classes 2">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/proffys_disponiveis.png" alt="Avaliable Proffys/Teachers">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/give_classes_2.png" alt="Give Classes 2">
     </h1>
 </p>
 
