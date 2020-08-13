@@ -1,7 +1,18 @@
-
 <h1 align="center">
-    <img src="public/images/icons/proffy_logo.png" alt="LogoProffyColored">
+    <img src="public/images/icons/github/proffy_logo.png" alt="LogoProffyColored">
 </h1>
+
+<p align="left" display: "flex" >
+    <h1 align="center" display: "flex">
+        <img src="public/images/icons/github/page_landing.png" alt="Page Landing">
+        <img src="public/images/icons/github/proffy_disponiveis.png" alt="Avaliable Proffys/Teachers">
+        <img src="public/images/icons/github/give_classes1.png">
+    </h1>
+    
+    <img src="public/images/icons/github/give_classes2.png">
+</p>
+
+
 
 <p align="center">
     Page developed for students that need a specific class and also for teacher who need an extra change
