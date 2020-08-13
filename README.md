@@ -2,7 +2,7 @@
     <img src="public/images/icons/github/proffy_logo.png" alt="LogoProffyColored">
 </h1>
 
-<p align="center" display: "flex" >
+<p align="center" >
     <h1>
         <img width="450" style="border-radius: 5px" height="600" src="public/images/icons/github/proffys_disponiveis.png" alt="Avaliable Proffys/Teachers">
         <img width="450" style="border-radius: 5px" height="600" src="public/images/icons/github/page_landing.png" alt="Page Landing">
