@@ -2,14 +2,15 @@
     <img src="public/images/icons/github/proffy_logo.png" alt="LogoProffyColored">
 </h1>
 
-<p align="left" display: "flex" >
-    <h1 align="center" display: "flex">
-        <img src="public/images/icons/github/page_landing.png" alt="Page Landing">
-        <img src="public/images/icons/github/proffy_disponiveis.png" alt="Avaliable Proffys/Teachers">
-        <img src="public/images/icons/github/give_classes1.png">
+<p align="center" display: "flex" >
+    <h1>
+        <img width="450" style="border-radius: 5px" height="600" src="public/images/icons/github/proffys_disponiveis.png" alt="Avaliable Proffys/Teachers">
+        <img width="450" style="border-radius: 5px" height="600" src="public/images/icons/github/page_landing.png" alt="Page Landing">
     </h1>
-    
-    <img src="public/images/icons/github/give_classes2.png">
+    <h1>
+        <img width="450" style="border-radius: 5px" height="600" src="public/images/icons/github/give_classes_1.png" alt="Give Classes 1">
+        <img width="450" style="border-radius: 5px" height="600" src="public/images/icons/github/give_classes_2.png" alt="Give Classes 2">
+    </h1>
 </p>
 
 
