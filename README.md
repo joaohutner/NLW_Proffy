@@ -3,19 +3,6 @@
 </h1>
 
 <p align="center">
-    <h1 align="center">
-        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/page_landing.png" alt="Page Landing">
-        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/give_classes_1.png" alt="Give Classes 1">
-    </h1>
-    <h1 align="center">
-        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/proffys_disponiveis.png" alt="Avaliable Proffys/Teachers">
-        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/give_classes_2.png" alt="Give Classes 2">
-    </h1>
-</p>
-
-
-
-<p align="center">
     Page developed for students that need a specific class and also for teacher who need an extra change
 </p>
 
@@ -28,6 +15,18 @@
   <a href="#contributing">Contributing</a> •
   <a href="#license">License</a> •
 </p>
+
+<p align="center">
+    <h1 align="center">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/page_landing.png" alt="Page Landing">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/give_classes_1.png" alt="Give Classes 1">
+    </h1>
+    <h1 align="center">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/proffys_disponiveis.png" alt="Avaliable Proffys/Teachers">
+        <img width="384" style="border-radius: 5px" height="512" src="public/images/icons/github/give_classes_2.png" alt="Give Classes 2">
+    </h1>
+</p>
+
 
 ## Why?
 
